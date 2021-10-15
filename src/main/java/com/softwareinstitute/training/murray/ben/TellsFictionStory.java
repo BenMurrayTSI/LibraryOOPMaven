@@ -1,12 +1,14 @@
-public interface TellsNonFictionStory {
+package com.softwareinstitute.training.murray.ben;
+
+public interface TellsFictionStory {
 
     /////////////////////////////////////////Attributes////////////////////////////////////////////
 
-    void realBeginning();
+    void beginning();
 
-    void realMiddle();
+    void middle();
 
-    void realEnd();
+    void end();
 
     /////////////////////////////////////////Constructors///////////////////////////////////////////
 

@@ -1,3 +1,4 @@
+import com.softwareinstitute.training.murray.ben.BiographyBook;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

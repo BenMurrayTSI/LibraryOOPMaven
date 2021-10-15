@@ -1,3 +1,5 @@
+package com.softwareinstitute.training.murray.ben;
+
 public class BiographyBook extends Book implements TellsNonFictionStory {
 
     /////////////////////////////////////////Attributes////////////////////////////////////////////
@@ -29,11 +31,11 @@ public class BiographyBook extends Book implements TellsNonFictionStory {
     /////////////////////////////////////////Methods////////////////////////////////////////////
 
     public void setting() {
-        System.err.println("Setting is the real world.");
+        System.out.println("Setting is the real world.");
     }
 
     public void tellStory() {
-        System.err.println("Tells story of a real person.");
+        System.out.println("Tells story of a real person.");
     }
 
     public String getSetting() {
@@ -61,7 +63,7 @@ public class BiographyBook extends Book implements TellsNonFictionStory {
 
     @Override
     public String toString() {
-        return "Class: Book-Biography" + "\nItem title: " + getItemTitle() + "\nWriter: " + getWriterName() + "\nCoverType: " + getCoverType() + "\nNumber of pages: " + getPages() + "\n" + getStoryMedium() + "\n" + getSetting() + "\n" + getTellStory();
+        return "Class: com.softwareinstitute.training.murray.ben.Book-Biography" + "\nItem title: " + getItemTitle() + "\nWriter: " + getWriterName() + "\nCoverType: " + getCoverType() + "\nNumber of pages: " + getPages() + "\n" + getStoryMedium() + "\n" + getSetting() + "\n" + getTellStory();
     }
 
 }

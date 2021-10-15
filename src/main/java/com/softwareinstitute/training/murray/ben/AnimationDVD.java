@@ -1,3 +1,5 @@
+package com.softwareinstitute.training.murray.ben;
+
 public class AnimationDVD extends DVD implements TellsFictionStory {
 
     /////////////////////////////////////////Attributes////////////////////////////////////////////
@@ -29,11 +31,11 @@ public class AnimationDVD extends DVD implements TellsFictionStory {
     /////////////////////////////////////////Methods////////////////////////////////////////////
 
     public void setting() {
-        System.err.println("Setting could be anything.");
+        System.out.println("Setting could be anything.");
     }
 
     public void tellStory() {
-        System.err.println("Tells story with animated characters.");
+        System.out.println("Tells story with animated characters.");
     }
 
     public String getSetting() {
@@ -61,7 +63,7 @@ public class AnimationDVD extends DVD implements TellsFictionStory {
 
     @Override
     public String toString() {
-        return "Class: DVD-Animation" + "\nItem title: " + getItemTitle() + "\nWriter: " + getWriterName() + "\nQuality: " + getQuality() + "\nRuntime: " + getRuntime() + "\n" + getStoryMedium() + "\n" + getSetting() + "\n" + getTellStory();
+        return "Class: com.softwareinstitute.training.murray.ben.DVD-Animation" + "\nItem title: " + getItemTitle() + "\nWriter: " + getWriterName() + "\nQuality: " + getQuality() + "\nRuntime: " + getRuntime() + "\n" + getStoryMedium() + "\n" + getSetting() + "\n" + getTellStory();
     }
 
 }

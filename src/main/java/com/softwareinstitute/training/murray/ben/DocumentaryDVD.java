@@ -1,3 +1,5 @@
+package com.softwareinstitute.training.murray.ben;
+
 public class DocumentaryDVD extends DVD implements TellsNonFictionStory {
 
     /////////////////////////////////////////Attributes////////////////////////////////////////////
@@ -29,11 +31,11 @@ public class DocumentaryDVD extends DVD implements TellsNonFictionStory {
     /////////////////////////////////////////Methods////////////////////////////////////////////
 
     public void setting() {
-        System.err.println("Setting is the real world.");
+        System.out.println("Setting is the real world.");
     }
 
     public void tellStory() {
-        System.err.println("Tells story about real events.");
+        System.out.println("Tells story about real events.");
     }
 
     public String getSetting() {
@@ -61,7 +63,7 @@ public class DocumentaryDVD extends DVD implements TellsNonFictionStory {
 
     @Override
     public String toString() {
-        return "Class: DVD-Documentary" + "\nItem title: " + getItemTitle() + "\nWriter: " + getWriterName() + "\nQuality: " + getQuality() + "\nRuntime: " + getRuntime() + "\n" + getStoryMedium() + "\n" + getSetting() + "\n" + getTellStory();
+        return "Class: com.softwareinstitute.training.murray.ben.DVD-Documentary" + "\nItem title: " + getItemTitle() + "\nWriter: " + getWriterName() + "\nQuality: " + getQuality() + "\nRuntime: " + getRuntime() + "\n" + getStoryMedium() + "\n" + getSetting() + "\n" + getTellStory();
     }
 
 }

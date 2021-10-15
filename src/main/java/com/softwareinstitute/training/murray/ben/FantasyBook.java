@@ -1,3 +1,5 @@
+package com.softwareinstitute.training.murray.ben;
+
 public class FantasyBook extends Book implements TellsFictionStory {
 
     /////////////////////////////////////////Attributes////////////////////////////////////////////
@@ -32,11 +34,11 @@ public class FantasyBook extends Book implements TellsFictionStory {
     /////////////////////////////////////////Methods////////////////////////////////////////////
 
     public void setting() {
-        System.err.println("Setting is goblins and stuff.");
+        System.out.println("Setting is goblins and stuff.");
     }
 
     public void tellStory() {
-        System.err.println("Tells story with magic.");
+        System.out.println("Tells story with magic.");
     }
 
     public String getSetting() {
@@ -64,7 +66,7 @@ public class FantasyBook extends Book implements TellsFictionStory {
 
     @Override
     public String toString() {
-        return "Class: Book-Fantasy" + "\nItem title: " + getItemTitle() + "\nWriter: " + getWriterName() + "\nCoverType: " + getCoverType() + "\nNumber of pages: " + getPages() + "\n" + getStoryMedium() + "\n" + getSetting() + "\n" + getTellStory();
+        return "Class: com.softwareinstitute.training.murray.ben.Book-Fantasy" + "\nItem title: " + getItemTitle() + "\nWriter: " + getWriterName() + "\nCoverType: " + getCoverType() + "\nNumber of pages: " + getPages() + "\n" + getStoryMedium() + "\n" + getSetting() + "\n" + getTellStory();
     }
 
 }
