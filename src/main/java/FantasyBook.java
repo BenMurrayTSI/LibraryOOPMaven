@@ -1,4 +1,4 @@
-public class FantasyBook extends com.softwareinstitute.training.murray.ben.Book implements com.softwareinstitute.training.murray.ben.TellsFictionStory {
+public class FantasyBook extends Book implements TellsFictionStory {
 
     /////////////////////////////////////////Attributes////////////////////////////////////////////
 

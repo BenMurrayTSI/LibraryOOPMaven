@@ -1,4 +1,4 @@
-public class AnimationDVD extends com.softwareinstitute.training.murray.ben.DVD implements com.softwareinstitute.training.murray.ben.TellsFictionStory {
+public class AnimationDVD extends DVD implements TellsFictionStory {
 
     /////////////////////////////////////////Attributes////////////////////////////////////////////
 

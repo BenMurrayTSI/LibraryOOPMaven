@@ -1,4 +1,4 @@
-public class BiographyBook extends com.softwareinstitute.training.murray.ben.Book implements TellsNonFictionStory {
+public class BiographyBook extends Book implements TellsNonFictionStory {
 
     /////////////////////////////////////////Attributes////////////////////////////////////////////
 

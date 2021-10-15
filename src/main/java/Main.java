@@ -9,8 +9,8 @@ public class Main {
         System.out.println();
 
         LibraryItem defaultFantasyBook = new FantasyBook();
-        LibraryItem defaultBiographyBook = new com.softwareinstitute.training.murray.ben.BiographyBook();
-        LibraryItem defaultDocumentaryDVD = new com.softwareinstitute.training.murray.ben.DocumentaryDVD();
+        LibraryItem defaultBiographyBook = new BiographyBook();
+        LibraryItem defaultDocumentaryDVD = new DocumentaryDVD();
         LibraryItem defaultAnimationDVD = new AnimationDVD();
         LibraryItem myFantasyBook = new FantasyBook("Two Towers", "Tolkien", "Paperback", 352);
 
@@ -26,7 +26,7 @@ public class Main {
 
         System.out.println();
         System.out.println();
-        com.softwareinstitute.training.murray.ben.Library allLibrary = new com.softwareinstitute.training.murray.ben.Library(items);
+        Library allLibrary = new Library(items);
 
         System.out.println(allLibrary);
 
