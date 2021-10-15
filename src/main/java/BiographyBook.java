@@ -46,17 +46,17 @@ public class BiographyBook extends Book implements TellsNonFictionStory {
 
     @Override
     public void realBeginning(){
-
+        //realBeginning
     }
 
     @Override
     public void realMiddle(){
-
+        //realMiddle
     }
 
     @Override
     public void realEnd(){
-
+        //realEnd
     }
 
     @Override
