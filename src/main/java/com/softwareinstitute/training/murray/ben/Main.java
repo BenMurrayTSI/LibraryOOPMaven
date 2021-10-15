@@ -15,12 +15,14 @@ public class Main {
         LibraryItem defaultDocumentaryDVD = new DocumentaryDVD();
         LibraryItem defaultAnimationDVD = new AnimationDVD();
         LibraryItem myFantasyBook = new FantasyBook("Two Towers", "Tolkien", "Paperback", 352);
+        LibraryItem myDocumentaryDVD = new DocumentaryDVD("A", "B", "C", 4);
 
         items.add(defaultFantasyBook);
         items.add(defaultBiographyBook);
         items.add(defaultDocumentaryDVD);
         items.add(defaultAnimationDVD);
         items.add(myFantasyBook);
+        items.add(myDocumentaryDVD);
 
         for (LibraryItem i:items) {
             System.out.println("\n" + i);

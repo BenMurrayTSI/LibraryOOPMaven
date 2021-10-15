@@ -24,8 +24,8 @@ public class AnimationDVD extends DVD implements TellsFictionStory {
         super(itemTitle, writerName, quality, 90);
     }
 
-    public AnimationDVD(String itemTitle, String writerName, String coverType, int length) {
-        super(itemTitle, writerName, coverType, length);
+    public AnimationDVD(String itemTitle, String writerName, String quality, int runtime) {
+        super(itemTitle, writerName, quality, runtime);
     }
 
     /////////////////////////////////////////Methods////////////////////////////////////////////

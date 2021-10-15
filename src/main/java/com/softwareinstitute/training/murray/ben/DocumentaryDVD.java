@@ -24,8 +24,8 @@ public class DocumentaryDVD extends DVD implements TellsNonFictionStory {
         super(itemTitle, writerName, quality, 110);
     }
 
-    public DocumentaryDVD(String itemTitle, String writerName, String coverType, int length) {
-        super(itemTitle, writerName, coverType, length);
+    public DocumentaryDVD(String itemTitle, String writerName, String quality, int runtime) {
+        super(itemTitle, writerName, quality, runtime);
     }
 
     /////////////////////////////////////////Methods////////////////////////////////////////////
