@@ -9,7 +9,7 @@ public abstract class DVD extends LibraryItem {
 
     /////////////////////////////////////////Constructors///////////////////////////////////////////
 
-    public DVD(String itemTitle, String writerName, String quality, int runtime) {
+    protected DVD(String itemTitle, String writerName, String quality, int runtime) {
         super(itemTitle, writerName);
         this.quality = quality;
         this.runtime = runtime;

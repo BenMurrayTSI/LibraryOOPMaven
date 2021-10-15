@@ -9,7 +9,7 @@ public abstract class Book extends LibraryItem {
 
     /////////////////////////////////////////Constructors///////////////////////////////////////////
 
-    public Book(String itemTitle, String writerName, String coverType, int pages) {
+    protected Book(String itemTitle, String writerName, String coverType, int pages) {
         super(itemTitle, writerName);
         this.coverType = coverType;
         this.pages = pages;
