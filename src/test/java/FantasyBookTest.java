@@ -4,7 +4,7 @@ import static org.junit.Assert.assertEquals;
 
 public class FantasyBookTest {
 
-    FantasyBook myFantasyBook = new FantasyBook("Twp Towers", "Tolkien", "Paperbsck", 352);
+    FantasyBook myFantasyBook = new FantasyBook("Two Towers", "Tolkien", "Paperback", 352);
 
     @Test
     public void  testFantasyBookItemTitleMethod() {
