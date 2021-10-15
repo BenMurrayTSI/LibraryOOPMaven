@@ -29,11 +29,11 @@ public class AnimationDVD extends DVD implements TellsFictionStory {
     /////////////////////////////////////////Methods////////////////////////////////////////////
 
     public void setting() {
-        System.out.println("Setting could be anything.");
+        System.err.println("Setting could be anything.");
     }
 
     public void tellStory() {
-        System.out.println("Tells story with animated characters.");
+        System.err.println("Tells story with animated characters.");
     }
 
     public String getSetting() {

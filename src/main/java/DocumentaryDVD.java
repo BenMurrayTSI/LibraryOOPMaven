@@ -29,11 +29,11 @@ public class DocumentaryDVD extends DVD implements TellsNonFictionStory {
     /////////////////////////////////////////Methods////////////////////////////////////////////
 
     public void setting() {
-        System.out.println("Setting is the real world.");
+        System.err.println("Setting is the real world.");
     }
 
     public void tellStory() {
-        System.out.println("Tells story about real events.");
+        System.err.println("Tells story about real events.");
     }
 
     public String getSetting() {
