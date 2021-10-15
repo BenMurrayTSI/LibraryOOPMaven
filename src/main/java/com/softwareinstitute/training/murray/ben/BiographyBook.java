@@ -63,7 +63,7 @@ public class BiographyBook extends Book implements TellsNonFictionStory {
 
     @Override
     public String toString() {
-        return "Class: com.softwareinstitute.training.murray.ben.Book-Biography" + "\nItem title: " + getItemTitle() + "\nWriter: " + getWriterName() + "\nCoverType: " + getCoverType() + "\nNumber of pages: " + getPages() + "\n" + getStoryMedium() + "\n" + getSetting() + "\n" + getTellStory();
+        return "Class: Book-Biography" + "\nItem title: " + getItemTitle() + "\nWriter: " + getWriterName() + "\nCoverType: " + getCoverType() + "\nNumber of pages: " + getPages() + "\n" + getStoryMedium() + "\n" + getSetting() + "\n" + getTellStory();
     }
 
 }

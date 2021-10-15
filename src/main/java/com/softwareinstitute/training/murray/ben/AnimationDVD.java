@@ -63,7 +63,7 @@ public class AnimationDVD extends DVD implements TellsFictionStory {
 
     @Override
     public String toString() {
-        return "Class: com.softwareinstitute.training.murray.ben.DVD-Animation" + "\nItem title: " + getItemTitle() + "\nWriter: " + getWriterName() + "\nQuality: " + getQuality() + "\nRuntime: " + getRuntime() + "\n" + getStoryMedium() + "\n" + getSetting() + "\n" + getTellStory();
+        return "Class: DVD-Animation" + "\nItem title: " + getItemTitle() + "\nWriter: " + getWriterName() + "\nQuality: " + getQuality() + "\nRuntime: " + getRuntime() + "\n" + getStoryMedium() + "\n" + getSetting() + "\n" + getTellStory();
     }
 
 }
