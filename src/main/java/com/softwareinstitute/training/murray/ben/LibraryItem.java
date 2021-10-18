@@ -1,7 +1,5 @@
 package com.softwareinstitute.training.murray.ben;
 
-import java.time.LocalDate;
-
 public abstract class LibraryItem {
 
     /////////////////////////////////////////Attributes////////////////////////////////////////////

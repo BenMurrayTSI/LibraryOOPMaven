@@ -1,6 +1,5 @@
 package com.softwareinstitute.training.murray.ben;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class Main {
