@@ -63,7 +63,7 @@ public class DocumentaryDVD extends DVD implements TellsNonFictionStory {
 
     @Override
     public String toString() {
-        return "Class: DVD-Documentary" + "\nItem title: " + getItemTitle() + "\nWriter: " + getWriterName() + "\nQuality: " + getQuality() + "\nRuntime: " + getRuntime() + "\n" + getStoryMedium() + "\n" + getSetting() + "\n" + getTellStory();
+        return "Class: DVD-Documentary" + "\nItem title: " + getItemTitle() + "\nWriter: " + getWriterName() + "\nQuality: " + getQuality() + "\nRuntime: " + getRuntime() + "\n" + getSetting() + "\n" + getTellStory();
     }
 
 }

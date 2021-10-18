@@ -17,14 +17,6 @@ public abstract class DVD extends LibraryItem {
 
     /////////////////////////////////////////Methods////////////////////////////////////////////
 
-    public void storyMedium() {
-        System.out.println("You watch it.");
-    }
-
-    public String getStoryMedium() {
-        return "You watch it.";
-    }
-
     public int getRuntime() {
         return runtime;
     }

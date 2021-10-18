@@ -41,6 +41,6 @@ public class DocumentaryDVDTest {
 
     @Test
     public void testTestToString() {
-        assertEquals("Wrong output.", "Class: DVD-Documentary\nItem title: A\nWriter: B\nQuality: C\nRuntime: 4\nYou watch it.\nSetting is the real world.\nTells story about real events.", myDocumentaryDVD.toString());
+        assertEquals("Wrong output.", "Class: DVD-Documentary\nItem title: A\nWriter: B\nQuality: C\nRuntime: 4\nSetting is the real world.\nTells story about real events.", myDocumentaryDVD.toString());
     }
 }

@@ -66,7 +66,7 @@ public class FantasyBook extends Book implements TellsFictionStory {
 
     @Override
     public String toString() {
-        return "Class: Book-Fantasy" + "\nItem title: " + getItemTitle() + "\nWriter: " + getWriterName() + "\nCoverType: " + getCoverType() + "\nNumber of pages: " + getPages() + "\n" + getStoryMedium() + "\n" + getSetting() + "\n" + getTellStory();
+        return "Class: Book-Fantasy" + "\nItem title: " + getItemTitle() + "\nWriter: " + getWriterName() + "\nCoverType: " + getCoverType() + "\nNumber of pages: " + getPages() + "\n" + getSetting() + "\n" + getTellStory();
     }
 
 }

@@ -9,7 +9,7 @@ public abstract class LibraryItem {
     private String itemTitle;
     private String writerName;
 
-    /////////////////////////////////////////Constructors///////////////////////////////////////////
+/////////////////////////////////////////Constructors///////////////////////////////////////////
 
     protected LibraryItem(String itemTitle, String writerName){
         this.itemTitle = itemTitle;
@@ -17,8 +17,6 @@ public abstract class LibraryItem {
     }
 
     /////////////////////////////////////////Methods////////////////////////////////////////////
-
-    public abstract void storyMedium();
 
     public abstract void tellStory();
 

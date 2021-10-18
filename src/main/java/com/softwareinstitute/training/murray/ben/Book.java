@@ -17,14 +17,6 @@ public abstract class Book extends LibraryItem {
 
     /////////////////////////////////////////Methods////////////////////////////////////////////
 
-    public void storyMedium() {
-        System.out.println("You read it.");
-    }
-
-    public String getStoryMedium() {
-        return "You read it.";
-    }
-
     public int getPages() {
         return pages;
     }
