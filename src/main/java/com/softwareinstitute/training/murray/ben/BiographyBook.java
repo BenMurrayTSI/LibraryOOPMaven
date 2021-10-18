@@ -33,12 +33,12 @@ public class BiographyBook extends Book implements TellsNonFictionStory {
 
     @Override
     public String nonFictionStory(){
-        return "A biography is not fictional.";
+        return "Tells a non-fictional story.";
     }
 
     @Override
     public String toString() {
-        return "Class: Book-Biography" + "\nItem title: " + getItemTitle() + "\nWriter: " + getWriterName() + "\nCoverType: " + getCoverType() + "\nNumber of pages: " + getPages();
+        return "Class: Book-Biography" + "\nItem title: " + getItemTitle() + "\nWriter: " + getWriterName() + "\nCoverType: " + getCoverType() + "\nNumber of pages: " + getPages() + "\n" + nonFictionStory();
     }
 
 }

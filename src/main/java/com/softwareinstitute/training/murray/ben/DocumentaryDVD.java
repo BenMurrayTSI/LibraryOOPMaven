@@ -32,12 +32,12 @@ public class DocumentaryDVD extends DVD implements TellsNonFictionStory {
 
     @Override
     public String nonFictionStory(){
-        return "A documentary is not fictional.";
+        return "Tells a non-fictional story.";
     }
 
     @Override
     public String toString() {
-        return "Class: DVD-Documentary" + "\nItem title: " + getItemTitle() + "\nWriter: " + getWriterName() + "\nQuality: " + getQuality() + "\nRuntime: " + getRuntime();
+        return "Class: DVD-Documentary" + "\nItem title: " + getItemTitle() + "\nWriter: " + getWriterName() + "\nQuality: " + getQuality() + "\nRuntime: " + getRuntime() + "\n" + nonFictionStory();
     }
 
 }

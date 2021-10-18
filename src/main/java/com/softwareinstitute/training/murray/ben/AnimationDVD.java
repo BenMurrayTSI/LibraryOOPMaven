@@ -32,12 +32,12 @@ public class AnimationDVD extends DVD implements TellsFictionStory {
 
     @Override
     public String fictionStory() {
-        return "An animation is fictional.";
+        return "Tells fictional story.";
     }
 
     @Override
     public String toString() {
-        return ("Class: DVD-Animation" + "\nItem title: " + getItemTitle() + "\nWriter: " + getWriterName() + "\nQuality: " + getQuality() + "\nRuntime: " + getRuntime());
+        return "Class: DVD-Animation" + "\nItem title: " + getItemTitle() + "\nWriter: " + getWriterName() + "\nQuality: " + getQuality() + "\nRuntime: " + getRuntime() + "\n" + fictionStory();
     }
 
 }
