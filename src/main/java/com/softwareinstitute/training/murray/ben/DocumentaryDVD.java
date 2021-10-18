@@ -48,7 +48,7 @@ public class DocumentaryDVD extends DVD implements TellsNonFictionStory {
 
     @Override
     public String nonFictionStory(){
-        return "Story is not fictional.";
+        return "A documentary is not fictional.";
     }
 
     @Override

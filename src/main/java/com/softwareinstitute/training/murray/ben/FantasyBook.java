@@ -48,7 +48,7 @@ public class FantasyBook extends Book implements TellsFictionStory {
 
     @Override
     public String fictionStory() {
-        return "Story is fictional.";
+        return "A fantasy is fictional.";
     }
 
     @Override
