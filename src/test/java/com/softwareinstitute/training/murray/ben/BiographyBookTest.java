@@ -31,12 +31,12 @@ public class BiographyBookTest {
 
     @Test
     public void testTestToString() {
-        assertEquals("Wrong output.", "Class: Book-Biography\nItem title: A\nWriter: B\nCoverType: C\nNumber of pages: 4", myBiographyBook.toString());
+        assertEquals("Wrong output.", "Class: Book-Biography\nItem title: A\nWriter: B\nCoverType: C\nNumber of pages: 4\nTells a non-fictional story.", myBiographyBook.toString());
     }
 
     @Test
     public void testNonFictional() {
-        assertEquals("Wrong output.", "A biography is not fictional.", myBiographyBook.nonFictionStory());
+        assertEquals("Wrong output.", "Tells a non-fictional story.", myBiographyBook.nonFictionStory());
     }
 
 }

@@ -32,7 +32,7 @@ public class AnimationDVD extends DVD implements TellsFictionStory {
 
     @Override
     public String fictionStory() {
-        return "Tells fictional story.";
+        return "Tells a fictional story.";
     }
 
     @Override

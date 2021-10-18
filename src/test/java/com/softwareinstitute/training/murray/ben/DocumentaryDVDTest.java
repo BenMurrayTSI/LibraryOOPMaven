@@ -31,11 +31,11 @@ public class DocumentaryDVDTest {
 
     @Test
     public void testTestToString() {
-        assertEquals("Wrong output.", "Class: DVD-Documentary\nItem title: A\nWriter: B\nQuality: C\nRuntime: 4", myDocumentaryDVD.toString());
+        assertEquals("Wrong output.", "Class: DVD-Documentary\nItem title: A\nWriter: B\nQuality: C\nRuntime: 4\nTells a non-fictional story.", myDocumentaryDVD.toString());
     }
 
     @Test
     public void testFictional() {
-        assertEquals("Wrong output.", "A documentary is not fictional.", myDocumentaryDVD.nonFictionStory());
+        assertEquals("Wrong output.", "Tells a non-fictional story.", myDocumentaryDVD.nonFictionStory());
     }
 }
