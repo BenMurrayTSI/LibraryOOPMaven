@@ -30,18 +30,8 @@ public class DocumentaryDVDTest {
     }
 
     @Test
-    public void  testDocumentaryDVDGetSetting() {
-        assertEquals("This documentary DVD setting is not correct.", "Setting is the real world.", myDocumentaryDVD.getSetting());
-    }
-
-    @Test
-    public void  testDocumentaryDVDGetTellStory() {
-        assertEquals("This documentary DVD story description is not correct.", "Tells story about real events.", myDocumentaryDVD.getTellStory());
-    }
-
-    @Test
     public void testTestToString() {
-        assertEquals("Wrong output.", "Class: DVD-Documentary\nItem title: A\nWriter: B\nQuality: C\nRuntime: 4\nSetting is the real world.\nTells story about real events.", myDocumentaryDVD.toString());
+        assertEquals("Wrong output.", "Class: DVD-Documentary\nItem title: A\nWriter: B\nQuality: C\nRuntime: 4", myDocumentaryDVD.toString());
     }
 
     @Test

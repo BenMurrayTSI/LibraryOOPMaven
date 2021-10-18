@@ -30,18 +30,8 @@ public class BiographyBookTest {
     }
 
     @Test
-    public void  testBiographyBookGetSetting() {
-        assertEquals("This biography book setting is not correct.", "Setting is the real world.", myBiographyBook.getSetting());
-    }
-
-    @Test
-    public void  testBiographyBookGetTellStory() {
-        assertEquals("This biography book story description is not correct.", "Tells story of a real person.", myBiographyBook.getTellStory());
-    }
-
-    @Test
     public void testTestToString() {
-        assertEquals("Wrong output.", "Class: Book-Biography\nItem title: A\nWriter: B\nCoverType: C\nNumber of pages: 4\nSetting is the real world.\nTells story of a real person.", myBiographyBook.toString());
+        assertEquals("Wrong output.", "Class: Book-Biography\nItem title: A\nWriter: B\nCoverType: C\nNumber of pages: 4", myBiographyBook.toString());
     }
 
     @Test

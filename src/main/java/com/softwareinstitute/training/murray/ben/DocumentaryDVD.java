@@ -30,22 +30,6 @@ public class DocumentaryDVD extends DVD implements TellsNonFictionStory {
 
     /////////////////////////////////////////Methods////////////////////////////////////////////
 
-    public void setting() {
-        System.out.println("Setting is the real world.");
-    }
-
-    public void tellStory() {
-        System.out.println("Tells story about real events.");
-    }
-
-    public String getSetting() {
-        return "Setting is the real world.";
-    }
-
-    public String getTellStory() {
-        return "Tells story about real events.";
-    }
-
     @Override
     public String nonFictionStory(){
         return "A documentary is not fictional.";
@@ -53,7 +37,7 @@ public class DocumentaryDVD extends DVD implements TellsNonFictionStory {
 
     @Override
     public String toString() {
-        return "Class: DVD-Documentary" + "\nItem title: " + getItemTitle() + "\nWriter: " + getWriterName() + "\nQuality: " + getQuality() + "\nRuntime: " + getRuntime() + "\n" + getSetting() + "\n" + getTellStory();
+        return "Class: DVD-Documentary" + "\nItem title: " + getItemTitle() + "\nWriter: " + getWriterName() + "\nQuality: " + getQuality() + "\nRuntime: " + getRuntime();
     }
 
 }

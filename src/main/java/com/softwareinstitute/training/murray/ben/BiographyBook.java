@@ -30,21 +30,6 @@ public class BiographyBook extends Book implements TellsNonFictionStory {
 
     /////////////////////////////////////////Methods////////////////////////////////////////////
 
-    public void setting() {
-        System.out.println("Setting is the real world.");
-    }
-
-    public void tellStory() {
-        System.out.println("Tells story of a real person.");
-    }
-
-    public String getSetting() {
-        return "Setting is the real world.";
-    }
-
-    public String getTellStory() {
-        return "Tells story of a real person.";
-    }
 
     @Override
     public String nonFictionStory(){
@@ -53,7 +38,7 @@ public class BiographyBook extends Book implements TellsNonFictionStory {
 
     @Override
     public String toString() {
-        return "Class: Book-Biography" + "\nItem title: " + getItemTitle() + "\nWriter: " + getWriterName() + "\nCoverType: " + getCoverType() + "\nNumber of pages: " + getPages() + "\n" + getSetting() + "\n" + getTellStory();
+        return "Class: Book-Biography" + "\nItem title: " + getItemTitle() + "\nWriter: " + getWriterName() + "\nCoverType: " + getCoverType() + "\nNumber of pages: " + getPages();
     }
 
 }

@@ -30,18 +30,8 @@ public class FantasyBookTest {
     }
 
     @Test
-    public void  testFantasyBookGetSetting() {
-        assertEquals("This fantasy book setting is not correct.", "Setting is goblins and stuff.", myFantasyBook.getSetting());
-    }
-
-    @Test
-    public void  testFantasyBookGetTellStory() {
-        assertEquals("This fantasy book story description is not correct.", "Tells story with magic.", myFantasyBook.getTellStory());
-    }
-
-    @Test
     public void testTestToString() {
-        assertEquals("Wrong output.", "Class: Book-Fantasy\nItem title: Two Towers\nWriter: Tolkien\nCoverType: Paperback\nNumber of pages: 352\nSetting is goblins and stuff.\nTells story with magic.", myFantasyBook.toString());
+        assertEquals("Wrong output.", "Class: Book-Fantasy\nItem title: Two Towers\nWriter: Tolkien\nCoverType: Paperback\nNumber of pages: 352", myFantasyBook.toString());
     }
 
     @Test
