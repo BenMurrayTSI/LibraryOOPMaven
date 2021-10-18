@@ -1,13 +1,15 @@
 package com.softwareinstitute.training.murray.ben;
 
 import com.softwareinstitute.training.murray.ben.AnimationDVD;
+import com.softwareinstitute.training.murray.ben.Book;
+
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
 public class AnimationDVDTest {
 
-    AnimationDVD myAnimationDVD = new AnimationDVD("A", "B", "C", 4);
+    AnimationDVD myAnimationDVD = new AnimationDVD("A", "B", "C", 5);
 
     @Test
     public void  testAnimationDVDItemTitleMethod() {

@@ -8,7 +8,6 @@ public abstract class LibraryItem {
 
     private String itemTitle;
     private String writerName;
-    private LocalDate releaseDate;
 
     /////////////////////////////////////////Constructors///////////////////////////////////////////
 
@@ -45,11 +44,4 @@ public abstract class LibraryItem {
         this.writerName = writerName;
     }
 
-    public LocalDate getReleaseDate() {
-        return releaseDate;
-    }
-
-    public void setReleaseDate(LocalDate releaseDate) {
-        this.releaseDate = releaseDate;
-    }
 }
