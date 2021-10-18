@@ -13,11 +13,6 @@ public class Main {
             System.out.println("\n" + i);
         }
 
-
-        AnimationDVD myAnimationDVD = new AnimationDVD("A", "B", "C", 4);
-
-        myAnimationDVD.setting();
-
     }
 
 }
