@@ -46,4 +46,9 @@ public class AnimationDVDTest {
         assertEquals("Wrong output.", "Class: DVD-Animation\nItem title: A\nWriter: B\nQuality: C\nRuntime: 4\nSetting could be anything.\nTells story with animated characters.", myAnimationDVD.toString());
     }
 
+    @Test
+    public void testFictional() {
+        assertEquals("Wrong output.", "Story is fictional.", myAnimationDVD.fictionStory());
+    }
+
 }

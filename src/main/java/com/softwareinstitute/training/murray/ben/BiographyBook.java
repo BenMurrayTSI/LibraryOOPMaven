@@ -47,8 +47,8 @@ public class BiographyBook extends Book implements TellsNonFictionStory {
     }
 
     @Override
-    public void nonFictionStory(){
-        //nonFictional
+    public String nonFictionStory(){
+        return "Story is not fictional.";
     }
 
     @Override

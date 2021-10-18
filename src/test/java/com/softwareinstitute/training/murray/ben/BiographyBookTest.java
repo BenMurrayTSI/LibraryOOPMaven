@@ -44,4 +44,9 @@ public class BiographyBookTest {
         assertEquals("Wrong output.", "Class: Book-Biography\nItem title: A\nWriter: B\nCoverType: C\nNumber of pages: 4\nSetting is the real world.\nTells story of a real person.", myBiographyBook.toString());
     }
 
+    @Test
+    public void testNonFictional() {
+        assertEquals("Wrong output.", "Story is not fictional.", myBiographyBook.nonFictionStory());
+    }
+
 }
