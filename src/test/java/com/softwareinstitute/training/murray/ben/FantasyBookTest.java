@@ -46,8 +46,8 @@ public class FantasyBookTest {
 
     @Test
     public void testFictional() {
-        assertEquals("Wrong output.", "Story is fictional.", myFantasyBook.fictionStory());
+        assertEquals("Wrong output.", "A fantasy is fictional.", myFantasyBook.fictionStory());
     }
-    
+
 
 }

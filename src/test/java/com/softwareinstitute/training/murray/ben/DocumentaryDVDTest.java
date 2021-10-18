@@ -46,6 +46,6 @@ public class DocumentaryDVDTest {
 
     @Test
     public void testFictional() {
-        assertEquals("Wrong output.", "Story is not fictional.", myDocumentaryDVD.nonFictionStory());
+        assertEquals("Wrong output.", "A documentary is not fictional.", myDocumentaryDVD.nonFictionStory());
     }
 }

@@ -48,7 +48,7 @@ public class AnimationDVDTest {
 
     @Test
     public void testFictional() {
-        assertEquals("Wrong output.", "Story is fictional.", myAnimationDVD.fictionStory());
+        assertEquals("Wrong output.", "An animation is fictional.", myAnimationDVD.fictionStory());
     }
 
 }

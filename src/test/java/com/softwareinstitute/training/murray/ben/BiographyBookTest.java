@@ -46,7 +46,7 @@ public class BiographyBookTest {
 
     @Test
     public void testNonFictional() {
-        assertEquals("Wrong output.", "Story is not fictional.", myBiographyBook.nonFictionStory());
+        assertEquals("Wrong output.", "A biography is not fictional.", myBiographyBook.nonFictionStory());
     }
 
 }
