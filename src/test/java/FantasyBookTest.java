@@ -27,4 +27,14 @@ public class FantasyBookTest {
         assertEquals("This fantasy book is not 352 pages.", 352, myFantasyBook.getPages());
     }
 
+    @Test
+    public void  testFantasyBookSetting() {
+        assertEquals("This fantasy book setting is not correct.", "Setting is goblins and stuff.", myFantasyBook.getSetting());
+    }
+
+    @Test
+    public void  testFantasyBookTellsStory() {
+        assertEquals("This fantasy book story description is not correct.", "Tells story with magic.", myFantasyBook.getTellStory());
+    }
+
 }

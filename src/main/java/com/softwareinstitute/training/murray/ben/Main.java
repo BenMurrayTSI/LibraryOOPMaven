@@ -7,32 +7,16 @@ public class Main {
 
     public static void main(String[] args) {
 
-        List<LibraryItem> items = new ArrayList<>();
+        Library allContents;
 
-        System.out.println();
+        allContents = new Library();
 
-        LibraryItem defaultFantasyBook = new FantasyBook();
-        LibraryItem defaultBiographyBook = new BiographyBook();
-        LibraryItem defaultDocumentaryDVD = new DocumentaryDVD();
-        LibraryItem defaultAnimationDVD = new AnimationDVD();
-        LibraryItem myFantasyBook = new FantasyBook("Two Towers", "Tolkien", "Paperback", 352);
-        LibraryItem myDocumentaryDVD = new DocumentaryDVD("A", "B", "C", 4);
+        List<LibraryItem> list = allContents.getItems();
 
-        items.add(defaultFantasyBook);
-        items.add(defaultBiographyBook);
-        items.add(defaultDocumentaryDVD);
-        items.add(defaultAnimationDVD);
-        items.add(myFantasyBook);
-        items.add(myDocumentaryDVD);
-
-        for (LibraryItem i:items) {
+        for (LibraryItem i:list) {
             System.out.println("\n" + i);
         }
-
-        System.out.println();
-        System.out.println();
-
-
+        
     }
 
 }

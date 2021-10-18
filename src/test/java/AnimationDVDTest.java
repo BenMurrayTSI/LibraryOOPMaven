@@ -9,21 +9,31 @@ public class AnimationDVDTest {
 
     @Test
     public void  testAnimationDVDItemTitleMethod() {
-        assertEquals("This documentary com.softwareinstitute.training.murray.ben.DVD is not A", "A", myAnimationDVD.getItemTitle());
+        assertEquals("This animation DVD is not A", "A", myAnimationDVD.getItemTitle());
     }
 
     @Test
     public void  testAnimationDVDWriterNameMethod() {
-        assertEquals("This documentary com.softwareinstitute.training.murray.ben.DVD is not by B.", "B", myAnimationDVD.getWriterName());
+        assertEquals("This animation DVD is not by B.", "B", myAnimationDVD.getWriterName());
     }
 
     @Test
     public void  testAnimationDVDQualityMethod() {
-        assertEquals("This documentary com.softwareinstitute.training.murray.ben.DVD is not C", "C", myAnimationDVD.getQuality());
+        assertEquals("This animation DVD is not C", "C", myAnimationDVD.getQuality());
     }
 
     @Test
     public void  testAnimationDVDRuntimeMethod() {
-        assertEquals("This documentary com.softwareinstitute.training.murray.ben.DVD is not 4 minutes.", 4, myAnimationDVD.getRuntime());
+        assertEquals("This animation DVD is not 4 minutes.", 4, myAnimationDVD.getRuntime());
+    }
+
+    @Test
+    public void  testAnimationDVDSetting() {
+        assertEquals("This animation DVD setting is not correct.", "Setting could be anything.", myAnimationDVD.getSetting());
+    }
+
+    @Test
+    public void  testAnimationDVDTellsStory() {
+        assertEquals("This animation DVD story description is not correct.", "Tells story with animated characters.", myAnimationDVD.getTellStory());
     }
 }

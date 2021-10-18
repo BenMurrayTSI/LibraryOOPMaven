@@ -27,4 +27,14 @@ public class BiographyBookTest {
         assertEquals("This biography book is not 4 pages.", 4, myBiographyBook.getPages());
     }
 
+    @Test
+    public void  testBiographyBookSetting() {
+        assertEquals("This biography book setting is not correct.", "Setting is the real world.", myBiographyBook.getSetting());
+    }
+
+    @Test
+    public void  testBiographyBookTellsStory() {
+        assertEquals("This biography book story description is not correct.", "Tells story of a real person.", myBiographyBook.getTellStory());
+    }
+
 }
