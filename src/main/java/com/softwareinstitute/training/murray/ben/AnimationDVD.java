@@ -47,18 +47,8 @@ public class AnimationDVD extends DVD implements TellsFictionStory {
     }
 
     @Override
-    public void beginning() {
-        //beginning
-    }
-
-    @Override
-    public void middle() {
-        //middle
-    }
-
-    @Override
-    public void end() {
-        //end
+    public void fictionStory() {
+        //fictional
     }
 
     @Override
