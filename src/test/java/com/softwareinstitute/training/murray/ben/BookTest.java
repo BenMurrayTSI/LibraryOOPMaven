@@ -1,3 +1,5 @@
+package com.softwareinstitute.training.murray.ben;
+
 import com.softwareinstitute.training.murray.ben.BiographyBook;
 import org.junit.Test;
 

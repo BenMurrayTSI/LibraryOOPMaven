@@ -1,3 +1,5 @@
+package com.softwareinstitute.training.murray.ben;
+
 import com.softwareinstitute.training.murray.ben.AnimationDVD;
 import org.junit.Test;
 

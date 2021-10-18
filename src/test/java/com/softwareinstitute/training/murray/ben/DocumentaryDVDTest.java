@@ -1,3 +1,5 @@
+package com.softwareinstitute.training.murray.ben;
+
 import com.softwareinstitute.training.murray.ben.DocumentaryDVD;
 import org.junit.Test;
 
@@ -35,5 +37,29 @@ public class DocumentaryDVDTest {
     @Test
     public void  testDocumentaryDVDTellsStory() {
         assertEquals("This documentary DVD story description is not correct.", "Tells story about real events.", myDocumentaryDVD.getTellStory());
+    }
+
+    @Test
+    public void testSetting() {
+    }
+
+    @Test
+    public void testTellStory() {
+    }
+
+    @Test
+    public void testRealBeginning() {
+    }
+
+    @Test
+    public void testRealMiddle() {
+    }
+
+    @Test
+    public void testRealEnd() {
+    }
+
+    @Test
+    public void testTestToString() {
     }
 }

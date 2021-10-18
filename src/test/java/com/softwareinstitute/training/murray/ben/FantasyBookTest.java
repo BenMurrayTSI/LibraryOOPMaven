@@ -1,3 +1,5 @@
+package com.softwareinstitute.training.murray.ben;
+
 import com.softwareinstitute.training.murray.ben.FantasyBook;
 import org.junit.Test;
 
@@ -35,6 +37,30 @@ public class FantasyBookTest {
     @Test
     public void  testFantasyBookTellsStory() {
         assertEquals("This fantasy book story description is not correct.", "Tells story with magic.", myFantasyBook.getTellStory());
+    }
+
+    @Test
+    public void testSetting() {
+    }
+
+    @Test
+    public void testTellStory() {
+    }
+
+    @Test
+    public void testBeginning() {
+    }
+
+    @Test
+    public void testMiddle() {
+    }
+
+    @Test
+    public void testEnd() {
+    }
+
+    @Test
+    public void testTestToString() {
     }
 
 }

@@ -1,3 +1,5 @@
+package com.softwareinstitute.training.murray.ben;
+
 import com.softwareinstitute.training.murray.ben.BiographyBook;
 import org.junit.Test;
 
@@ -35,6 +37,30 @@ public class BiographyBookTest {
     @Test
     public void  testBiographyBookTellsStory() {
         assertEquals("This biography book story description is not correct.", "Tells story of a real person.", myBiographyBook.getTellStory());
+    }
+
+    @Test
+    public void testSetting() {
+    }
+
+    @Test
+    public void testTellStory() {
+    }
+
+    @Test
+    public void testRealBeginning() {
+    }
+
+    @Test
+    public void testRealMiddle() {
+    }
+
+    @Test
+    public void testRealEnd() {
+    }
+
+    @Test
+    public void testTestToString() {
     }
 
 }

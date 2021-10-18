@@ -1,3 +1,5 @@
+package com.softwareinstitute.training.murray.ben;
+
 import com.softwareinstitute.training.murray.ben.AnimationDVD;
 import org.junit.Test;
 
@@ -28,12 +30,36 @@ public class AnimationDVDTest {
     }
 
     @Test
-    public void  testAnimationDVDSetting() {
+    public void  testAnimationDVDGetSetting() {
         assertEquals("This animation DVD setting is not correct.", "Setting could be anything.", myAnimationDVD.getSetting());
     }
 
     @Test
     public void  testAnimationDVDTellsStory() {
         assertEquals("This animation DVD story description is not correct.", "Tells story with animated characters.", myAnimationDVD.getTellStory());
+    }
+
+    @Test
+    public void testSetting() {
+    }
+
+    @Test
+    public void testTellStory() {
+    }
+
+    @Test
+    public void testBeginning() {
+    }
+
+    @Test
+    public void testMiddle() {
+    }
+
+    @Test
+    public void testEnd() {
+    }
+
+    @Test
+    public void testTestToString() {
     }
 }
