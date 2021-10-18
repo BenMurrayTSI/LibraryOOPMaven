@@ -61,6 +61,7 @@ public class FantasyBookTest {
 
     @Test
     public void testTestToString() {
+        assertEquals("Wrong output.", "Class: Book-Fantasy\nItem title: Two Towers\nWriter: Tolkien\nCoverType: Paperback\nNumber of pages: 352\nYou read it.\nSetting is goblins and stuff.\nTells story with magic.", myFantasyBook.toString());
     }
 
 }

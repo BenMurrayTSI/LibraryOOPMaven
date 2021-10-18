@@ -61,6 +61,7 @@ public class BiographyBookTest {
 
     @Test
     public void testTestToString() {
+        assertEquals("Wrong output.", "Class: Book-Biography\nItem title: A\nWriter: B\nCoverType: C\nNumber of pages: 4\nYou read it.\nSetting is the real world.\nTells story of a real person.", myBiographyBook.toString());
     }
 
 }
