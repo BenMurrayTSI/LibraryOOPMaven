@@ -18,10 +18,6 @@ public abstract class LibraryItem {
 
     /////////////////////////////////////////Methods////////////////////////////////////////////
 
-    public abstract void tellStory();
-
-    public abstract void setting();
-
     public String getItemTitle() {
         return itemTitle;
     }

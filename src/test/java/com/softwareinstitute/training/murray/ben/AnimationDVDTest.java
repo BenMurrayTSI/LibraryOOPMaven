@@ -32,18 +32,8 @@ public class AnimationDVDTest {
     }
 
     @Test
-    public void testAnimationDVDGetSetting() {
-        assertEquals("This animation DVD setting is not correct.", "Setting could be anything.", myAnimationDVD.getSetting());
-    }
-
-    @Test
-    public void testAnimationDVDGetTellStory() {
-        assertEquals("This animation DVD story description is not correct.", "Tells story with animated characters.", myAnimationDVD.getTellStory());
-    }
-
-    @Test
     public void testTestToString() {
-        assertEquals("Wrong output.", "Class: DVD-Animation\nItem title: A\nWriter: B\nQuality: C\nRuntime: 4\nSetting could be anything.\nTells story with animated characters.", myAnimationDVD.toString());
+        assertEquals("Wrong output.", "Class: DVD-Animation\nItem title: A\nWriter: B\nQuality: C\nRuntime: 4", myAnimationDVD.toString());
     }
 
     @Test
