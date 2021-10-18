@@ -12,7 +12,7 @@ public abstract class LibraryItem {
 
     /////////////////////////////////////////Constructors///////////////////////////////////////////
 
-    public LibraryItem(String itemTitle, String writerName){
+    protected LibraryItem(String itemTitle, String writerName){
         this.itemTitle = itemTitle;
         this.writerName = writerName;
     }

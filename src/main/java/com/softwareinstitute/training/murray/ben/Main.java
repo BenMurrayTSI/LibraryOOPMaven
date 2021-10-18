@@ -1,12 +1,13 @@
 package com.softwareinstitute.training.murray.ben;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        ArrayList<LibraryItem> items = new ArrayList<>();
+        List<LibraryItem> items = new ArrayList<>();
 
         System.out.println();
 
@@ -30,9 +31,6 @@ public class Main {
 
         System.out.println();
         System.out.println();
-        Library allLibrary = new Library(items);
-
-        System.out.println(allLibrary);
 
 
     }
