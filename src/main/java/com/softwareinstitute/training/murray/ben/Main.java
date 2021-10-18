@@ -16,7 +16,7 @@ public class Main {
         for (LibraryItem i:list) {
             System.out.println("\n" + i);
         }
-        
+
     }
 
 }
