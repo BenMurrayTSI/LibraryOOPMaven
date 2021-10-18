@@ -28,9 +28,6 @@ public class FantasyBook extends Book implements TellsFictionStory {
         super(itemTitle, writerName, coverType, pages);
     }
 
-
-
-
     /////////////////////////////////////////Methods////////////////////////////////////////////
 
     public void setting() {
