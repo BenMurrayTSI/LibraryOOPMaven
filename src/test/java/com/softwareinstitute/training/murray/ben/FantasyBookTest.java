@@ -48,5 +48,6 @@ public class FantasyBookTest {
     public void testFictional() {
         assertEquals("Wrong output.", "Story is fictional.", myFantasyBook.fictionStory());
     }
+    
 
 }
