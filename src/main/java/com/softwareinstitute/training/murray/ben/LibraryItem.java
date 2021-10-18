@@ -22,10 +22,6 @@ public abstract class LibraryItem {
 
     public abstract void tellStory();
 
-    public void cost(int price) {
-        System.out.println("I cost " + price);
-    }
-
     public abstract void setting();
 
     public String getItemTitle() {
