@@ -35,28 +35,8 @@ public class AnimationDVDTest {
     }
 
     @Test
-    public void  testAnimationDVDTellsStory() {
+    public void  testAnimationDVDGetTellStory() {
         assertEquals("This animation DVD story description is not correct.", "Tells story with animated characters.", myAnimationDVD.getTellStory());
-    }
-
-    @Test
-    public void testSetting() {
-    }
-
-    @Test
-    public void testTellStory() {
-    }
-
-    @Test
-    public void testBeginning() {
-    }
-
-    @Test
-    public void testMiddle() {
-    }
-
-    @Test
-    public void testEnd() {
     }
 
     @Test

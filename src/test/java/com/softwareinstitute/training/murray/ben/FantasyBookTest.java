@@ -30,33 +30,13 @@ public class FantasyBookTest {
     }
 
     @Test
-    public void  testFantasyBookSetting() {
+    public void  testFantasyBookGetSetting() {
         assertEquals("This fantasy book setting is not correct.", "Setting is goblins and stuff.", myFantasyBook.getSetting());
     }
 
     @Test
-    public void  testFantasyBookTellsStory() {
+    public void  testFantasyBookGetTellStory() {
         assertEquals("This fantasy book story description is not correct.", "Tells story with magic.", myFantasyBook.getTellStory());
-    }
-
-    @Test
-    public void testSetting() {
-    }
-
-    @Test
-    public void testTellStory() {
-    }
-
-    @Test
-    public void testBeginning() {
-    }
-
-    @Test
-    public void testMiddle() {
-    }
-
-    @Test
-    public void testEnd() {
     }
 
     @Test
