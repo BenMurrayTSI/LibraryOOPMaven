@@ -13,6 +13,8 @@ public class Main {
             System.out.println("\n" + i);
         }
 
+        System.out.println();
+
     }
 
 }
