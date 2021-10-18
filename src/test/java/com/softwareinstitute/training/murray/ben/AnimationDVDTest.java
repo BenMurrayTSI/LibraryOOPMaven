@@ -9,7 +9,7 @@ import static org.junit.Assert.assertEquals;
 
 public class AnimationDVDTest {
 
-    AnimationDVD myAnimationDVD = new AnimationDVD("A", "B", "C", 5);
+    AnimationDVD myAnimationDVD = new AnimationDVD("A", "B", "C", 4);
 
     @Test
     public void  testAnimationDVDItemTitleMethod() {
