@@ -1,4 +1,4 @@
-package com.softwareinstitute.training.murray.ben.cucumber;
+package com.softwareinstitute.training.murray.ben;
 
 
 import com.softwareinstitute.training.murray.ben.FantasyBook;
