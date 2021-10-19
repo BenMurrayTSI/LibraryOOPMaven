@@ -19,7 +19,7 @@ Feature: FantasyBook
     Examples:
       |writer|answer|
       |Tolkien|Yes|
-      |Three Towers|No|
+      |John|No|
 
 
   Scenario Outline: Fantasy book cover type is or isn't paperback
@@ -30,10 +30,10 @@ Feature: FantasyBook
     Examples:
       |cover|answer|
       |paperback|Yes|
-      |Three Towers|No|
+      |hardcover|No|
 
 
-  Scenario Outline: Fantasy book number of pages is or isn't 350
+  Scenario Outline: Fantasy book number of pages is or isn't 352
     Given number of pages is <numOfPages>
     When I ask if number of pages is 352
     Then I should be told "<answer>"
@@ -42,3 +42,9 @@ Feature: FantasyBook
       |numOfPages|answer|
       |352|Yes|
       |3|No|
+
+
+  Scenario: Fantasy book is fictional
+    Given story is fictional
+    When I ask if it's fictional
+    Then I should be told "Yes"

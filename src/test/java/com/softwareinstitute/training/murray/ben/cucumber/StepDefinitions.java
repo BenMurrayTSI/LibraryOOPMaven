@@ -21,6 +21,8 @@ public class StepDefinitions {
     private int pages;
     private String quality;
     private int runtime;
+    private String fictional;
+    private String nonFictional;
 
     @Given("title is {string}")
     public void titleIs(String title) {
@@ -40,6 +42,11 @@ public class StepDefinitions {
     @Given("number of pages is {int}")
     public void numberOfPagesIs(int numOfPages) {
         pages = numOfPages;
+    }
+
+    @Given("story is fictional")
+    public void storyIsFictional() {
+        fictional = "Tells a fictional story.";
     }
 
 
@@ -65,6 +72,11 @@ public class StepDefinitions {
     public void iAskIfNumberOfPagesIs() {
         myFantasyBook.setPages(pages);
         actualAnswer = IntCheck.check(352, myFantasyBook.getPages());
+    }
+
+    @When("I ask if it's fictional")
+    public void iAskIfItSFictional() {
+        actualAnswer = StringCheck.check(fictional, myFantasyBook.fictionStory());
     }
 
 
