@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="6" failures="0" name="com.softwareinstitute.training.murray.ben.AnimationDVDTest" time="0.018" errors="0" skipped="0">
+<testsuite tests="6" failures="0" name="com.softwareinstitute.training.murray.ben.AnimationDVDTest" time="0.017" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="17+35-LTS-2724"/>
@@ -63,8 +63,8 @@
   </properties>
   <testcase classname="com.softwareinstitute.training.murray.ben.AnimationDVDTest" name="testAnimationDVDQualityMethod" time="0.005"/>
   <testcase classname="com.softwareinstitute.training.murray.ben.AnimationDVDTest" name="testAnimationDVDRuntimeMethod" time="0"/>
-  <testcase classname="com.softwareinstitute.training.murray.ben.AnimationDVDTest" name="testTestToString" time="0.012"/>
-  <testcase classname="com.softwareinstitute.training.murray.ben.AnimationDVDTest" name="testFictional" time="0.001"/>
-  <testcase classname="com.softwareinstitute.training.murray.ben.AnimationDVDTest" name="testAnimationDVDWriterNameMethod" time="0"/>
+  <testcase classname="com.softwareinstitute.training.murray.ben.AnimationDVDTest" name="testTestToString" time="0.011"/>
+  <testcase classname="com.softwareinstitute.training.murray.ben.AnimationDVDTest" name="testFictional" time="0"/>
+  <testcase classname="com.softwareinstitute.training.murray.ben.AnimationDVDTest" name="testAnimationDVDWriterNameMethod" time="0.001"/>
   <testcase classname="com.softwareinstitute.training.murray.ben.AnimationDVDTest" name="testAnimationDVDItemTitleMethod" time="0"/>
 </testsuite>
