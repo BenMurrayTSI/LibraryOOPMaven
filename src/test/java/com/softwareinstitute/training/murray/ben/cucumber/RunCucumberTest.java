@@ -1,4 +1,4 @@
-package com.softwareinstitute.training.murray.ben;
+package com.softwareinstitute.training.murray.ben.cucumber;
 
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;

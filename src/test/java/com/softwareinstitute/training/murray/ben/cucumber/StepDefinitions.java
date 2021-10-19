@@ -1,6 +1,8 @@
-package com.softwareinstitute.training.murray.ben;
+package com.softwareinstitute.training.murray.ben.cucumber;
 
 
+import com.softwareinstitute.training.murray.ben.FantasyBook;
+import com.softwareinstitute.training.murray.ben.LibraryItem;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
