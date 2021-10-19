@@ -1,12 +1,8 @@
 com\softwareinstitute\training\murray\ben\FantasyBookTest.class
+com\softwareinstitute\training\murray\ben\LibraryItemTest.class
 com\softwareinstitute\training\murray\ben\BiographyBookTest.class
 com\softwareinstitute\training\murray\ben\DVDTest.class
-com\softwareinstitute\training\murray\ben\AnimationDVDTest.class
-com\softwareinstitute\training\murray\ben\cucumber\BiographyBookTestStepDefinitions.class
-com\softwareinstitute\training\murray\ben\BookTest.class
-com\softwareinstitute\training\murray\ben\cucumber\FantasyBookTestStepDefinitions.class
-com\softwareinstitute\training\murray\ben\cucumber\RunCucumberTest.class
-com\softwareinstitute\training\murray\ben\LibraryItemTest.class
 com\softwareinstitute\training\murray\ben\DocumentaryDVDTest.class
-com\softwareinstitute\training\murray\ben\cucumber\Check.class
+com\softwareinstitute\training\murray\ben\AnimationDVDTest.class
 com\softwareinstitute\training\murray\ben\LibraryTest.class
+com\softwareinstitute\training\murray\ben\BookTest.class
