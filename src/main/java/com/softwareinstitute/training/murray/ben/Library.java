@@ -7,12 +7,12 @@ public class Library {
 
     List<LibraryItem> items = new ArrayList<>();
 
-    LibraryItem defaultFantasyBook = new FantasyBook();
-    LibraryItem defaultBiographyBook = new BiographyBook();
-    LibraryItem defaultDocumentaryDVD = new DocumentaryDVD();
-    LibraryItem defaultAnimationDVD = new AnimationDVD();
-    LibraryItem myFantasyBook = new FantasyBook("Two Towers", "Tolkien", "Paperback", 352);
-    LibraryItem myDocumentaryDVD = new DocumentaryDVD("A", "B", "C", 4);
+    FantasyBook defaultFantasyBook = new FantasyBook();
+    BiographyBook defaultBiographyBook = new BiographyBook();
+    DocumentaryDVD defaultDocumentaryDVD = new DocumentaryDVD();
+    AnimationDVD defaultAnimationDVD = new AnimationDVD();
+    FantasyBook myFantasyBook = new FantasyBook("Two Towers", "Tolkien", "Paperback", 352);
+    DocumentaryDVD myDocumentaryDVD = new DocumentaryDVD("A", "B", "C", 4);
 
     {
         items.add(defaultFantasyBook);

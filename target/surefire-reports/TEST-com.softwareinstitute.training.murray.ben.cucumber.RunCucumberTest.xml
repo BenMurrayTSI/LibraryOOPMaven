@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="com.softwareinstitute.training.murray.ben.cucumber.RunCucumberTest" time="0.109" errors="0" skipped="0">
+<testsuite tests="4" failures="0" name="com.softwareinstitute.training.murray.ben.cucumber.RunCucumberTest" time="0.134" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="17+35-LTS-2724"/>
@@ -61,5 +61,8 @@
     <property name="sun.stdout.encoding" value="cp850"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="Is title Two Towers?" name="Title is Two Towers" time="0.109"/>
+  <testcase classname="BiographyBook" name="Biography book title is or isn&apos;t Becoming #1" time="0.116"/>
+  <testcase classname="BiographyBook" name="Biography book title is or isn&apos;t Becoming #2" time="0.008"/>
+  <testcase classname="FantasyBook" name="Fantasy book title is or isn&apos;t Two Towers #1" time="0.005"/>
+  <testcase classname="FantasyBook" name="Fantasy book title is or isn&apos;t Two Towers #2" time="0.005"/>
 </testsuite>

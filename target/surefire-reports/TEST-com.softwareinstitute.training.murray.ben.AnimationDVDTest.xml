@@ -63,8 +63,8 @@
   </properties>
   <testcase classname="com.softwareinstitute.training.murray.ben.AnimationDVDTest" name="testAnimationDVDQualityMethod" time="0.005"/>
   <testcase classname="com.softwareinstitute.training.murray.ben.AnimationDVDTest" name="testAnimationDVDRuntimeMethod" time="0"/>
-  <testcase classname="com.softwareinstitute.training.murray.ben.AnimationDVDTest" name="testTestToString" time="0.011"/>
+  <testcase classname="com.softwareinstitute.training.murray.ben.AnimationDVDTest" name="testTestToString" time="0.012"/>
   <testcase classname="com.softwareinstitute.training.murray.ben.AnimationDVDTest" name="testFictional" time="0"/>
-  <testcase classname="com.softwareinstitute.training.murray.ben.AnimationDVDTest" name="testAnimationDVDWriterNameMethod" time="0.001"/>
+  <testcase classname="com.softwareinstitute.training.murray.ben.AnimationDVDTest" name="testAnimationDVDWriterNameMethod" time="0"/>
   <testcase classname="com.softwareinstitute.training.murray.ben.AnimationDVDTest" name="testAnimationDVDItemTitleMethod" time="0"/>
 </testsuite>
